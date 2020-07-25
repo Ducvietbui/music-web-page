@@ -6,7 +6,7 @@
 }
 .home-main-section .img-wrapper {
 flex-grow: 1;
-flex-direcion: column;
+flex-direction: column;
 display: flex;
 align-items: stretch;
 justify-content: flex-end;
@@ -20,10 +20,6 @@ justify-content: flex-end;
   align-self: center;
 }
 @media (max width: 900px) {
-  .home-main-section .img-wrapper {
-    display: none;
-  }
-
   .home-main-section {
     justify-content: center;
   }
@@ -31,12 +27,13 @@ justify-content: flex-end;
 
 .home-page-circle-1 {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: 70vw;
+  width: 300px;
+  height: 300px;
+  left: 75vw;
   bottom: 3vw;
   background-color: rgba(17, 29, 94, 0.1);
   border-radius: 50%;
+  z-index: -1;
 }
 
 .home-page-circle-2 {
@@ -47,23 +44,46 @@ justify-content: flex-end;
   bottom: 40vw;
   background-color: rgba(17, 29, 94, 0.1);
   border-radius: 50%;
+  z-index: -1;
 }
 
 .home-page-circle-3 {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   left: -5vw;
   bottom: -5vw;
   background-color: rgba(17, 29, 94, 0.1);
   border-radius: 50%;
+  z-index: -1;
 }
 .home-page-circle-4 {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   left: 50vw;
   bottom: -5vw;
   background-color: rgba(17, 29, 94, 0.1);
   border-radius: 50%;
+  z-index: -1;
+}
+.home-page-circle-5 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 95vw;
+  bottom: 45vw;
+  background-color: rgba(17, 29, 94, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+}
+.home-page-circle-6 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 25vw;
+  bottom: 10vw;
+  background-color: rgba(17, 29, 94, 0.1);
+  border-radius: 50%;
+  z-index: -1;
 }
