@@ -41,10 +41,29 @@ justify-content: flex-end;
 
 .home-page-circle-2 {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   left: 50vw;
   bottom: 40vw;
+  background-color: rgba(17, 29, 94, 0.1);
+  border-radius: 50%;
+}
+
+.home-page-circle-3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -5vw;
+  bottom: -5vw;
+  background-color: rgba(17, 29, 94, 0.1);
+  border-radius: 50%;
+}
+.home-page-circle-4 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 50vw;
+  bottom: -5vw;
   background-color: rgba(17, 29, 94, 0.1);
   border-radius: 50%;
 }
